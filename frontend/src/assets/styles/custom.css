@@ -1,0 +1,772 @@
+/* Custom styles for the garage app */
+.signin-signout {
+  padding: 0 55px;
+}
+.signin-signout a {
+  color: #fff;
+}
+/* Placeholder style */
+input::placeholder,
+textarea::placeholder {
+  font-weight: 400;
+  opacity: 0.3;
+  color: #000;
+  font-style: italic;
+}
+/* Header */
+.main-header {
+  box-shadow:
+    rgba(9, 30, 66, 0.25) 0px 2px 5px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+/* Admin pages */
+.admin-left-side {
+  background-color: #222b48;
+}
+.admin-right-side {
+  background: rgb(246 247 250);
+  border-bottom: 1px solid #dfe2ec;
+}
+.admin-menu {
+  background: #1e2331;
+  padding: 10px 20px;
+}
+.admin-left-side .list-group-item.active {
+  z-index: 2;
+  color: #fff;
+  background-color: #3c404c;
+  border-color: #3c404c;
+  border-bottom: 1px solid #616675;
+}
+.admin-menu h2 {
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 50px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgb(249, 249, 249);
+  display: block;
+  text-decoration: none;
+}
+.admin-left-side.col-md-3 {
+  padding: 0;
+}
+.admin-left-side .list-group-item {
+  background-color: #222b48;
+  border-bottom: 1px solid #616675;
+  margin-bottom: 0px;
+  color: #fff;
+}
+.admin-left-side a {
+  color: #a2a5ad;
+}
+.admin-left-side a:hover {
+  color: #fff;
+}
+.validation-error {
+  color: red;
+  float: right;
+  font-style: italic;
+}
+select.custom-select-box {
+  border-right: 25px solid #dddddd;
+}
+.edit-delete-icons a {
+  color: #0a1436;
+  padding: 0 1px;
+  margin: 10px;
+}
+input:disabled {
+  background-color: #ecedef !important;
+}
+.checkbox-in-form .form-check-label {
+  padding-left: 15px;
+  font-size: 1.3em;
+  font-weight: 300;
+  vertical-align: super;
+}
+.checkbox-in-form input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+.form-bold-header {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+/* Pagination */
+.pagination-wrapper {
+  margin-top: 30px;
+}
+.page-link {
+  padding: 0.5rem 1.75rem;
+  color: #fff;
+  background-color: #222b48;
+  border: 1px solid #dee2e6;
+}
+.page-link:hover {
+  color: #ffffff;
+  background-color: #ee0c0a;
+}
+.page-link span {
+  padding: 0 5px;
+}
+/* Search */
+.search-box {
+  margin-bottom: 20px;
+}
+.search-box input {
+  padding: 30px;
+}
+/* Table style */
+.table a {
+  color: #0a1436;
+  font-weight: 600;
+}
+/* Customer page */
+.history-block .text span {
+  font-weight: 600;
+  color: #000821;
+}
+
+/* Vehicles */
+.external-container {
+  padding: 50px;
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.contact-section .external-container .contact-title h2 {
+  font-size: 30px;
+}
+.external-container .contact-form .theme-btn span {
+  color: #fff;
+}
+.form-close {
+  color: red;
+  font-size: 1.5em;
+  margin-bottom: -3px;
+  text-align: end;
+  cursor: pointer;
+}
+.internal-form-wrapper {
+  width: 80%;
+}
+.vehicles-wrapper {
+  padding: 0px;
+  background: #fff;
+  margin-bottom: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.inner-padding {
+  padding: 20px;
+}
+/* Services */
+.services-wrapper {
+  margin-bottom: 20px;
+}
+.service-item {
+  background: #fff;
+  padding: 20px 20px 5px;
+  margin-bottom: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.service-item .edit-delete {
+  float: right;
+  padding: 0 10px;
+  position: relative;
+  z-index: 1;
+}
+.service-item .edit-delete span {
+  padding: 15px;
+}
+.service-item h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+/* Order page */
+.faq-section.order-page .sear-form {
+  position: relative;
+  margin-bottom: 0px;
+}
+.order-page .search-box {
+  margin-bottom: 0px;
+}
+.filter-customers-wrapper {
+  padding: 20px;
+  background: #f8f8f8;
+  border: 1px solid #ced4da;
+  border-top: 0;
+}
+.selected-customer {
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ced4da;
+  border-top: 0;
+  margin-bottom: 20px;
+}
+.selected-customer h3 {
+  font-weight: 600;
+}
+.vehicles-to-choose {
+  margin-top: 40px;
+}
+.service-item.checkbox-holder {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 5px;
+}
+.checkbox-holder input[type="checkbox"] {
+  width: 40px;
+  height: 40px;
+}
+.theme-btn a {
+  color: #fff;
+}
+.no-customer {
+  margin-top: 20px;
+}
+.selected-customer .sec-title {
+  margin-bottom: 25px;
+}
+.selected-customer .form-close {
+  float: right;
+}
+.selected-customer .text span {
+  color: #000821;
+}
+.service-block-one .text span {
+  color: #000821;
+}
+.contact-form input[type="number"] {
+  display: block;
+  width: 100%;
+  line-height: 28px;
+  height: 56px;
+  font-size: 16px;
+  padding: 10px 22px;
+  background: #ffffff;
+  color: #000000;
+  border: 1px solid #dddddd;
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+}
+.single-order .service-block-one h2 {
+  margin-bottom: 20px;
+}
+.order-status {
+  float: right;
+}
+.order-status span {
+  padding: 10px 25px;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+.change-status {
+  cursor: pointer;
+}
+
+/* Styling for the checkbox container */
+.checkbox-container {
+  margin-top: 10px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  /* align vertically center */
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* Styling for the checkbox */
+.checkbox-container input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  /* margin-left: 10px; */
+}
+
+/* Optional: Styling for the label */
+.checkbox-container label {
+  font-size: 20px;
+  color: #333;
+  margin-left: 30px;
+}
+
+/* Styling for the checkbox */
+.checkbox-containerRecieved input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  /* margin-left: 10px; */
+}
+
+/* Optional: Styling for the label */
+.checkbox-containerRecieved label {
+  font-size: 20px;
+  color: #333;
+  margin-left: 30px;
+}
+
+/* Customer Detail */
+
+/* General Styles */
+.customer-detail-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Section */
+.logo-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo-section .logo {
+  width: 100px;
+  height: auto;
+}
+
+/* Header logo (overrides the generic .logo rule above so the
+   header logo isn't shrunk down to 100px) */
+.main-header .logo-box .logo img {
+  width: 220px;
+  height: auto;
+}
+
+/* Section Titles */
+.section-title {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.section-title .icon {
+  margin-right: 10px;
+  color: #ee0d09; /* Use the main color for icons */
+}
+
+/* Info Card */
+.info-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.info-item {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.info-label {
+  font-weight: bold;
+  color: #555;
+}
+
+.info-value {
+  color: #333;
+}
+
+/* Buttons */
+.add-button {
+  background-color: #ee0d09; /* Use the main color for buttons */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #d40c08; /* Slightly darker shade for hover */
+}
+
+/* customer-detail */
+.add-new-vehicle {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.add-new-vehicle-box {
+  margin-right: 10rem;
+}
+/* notification */
+.notification {
+  position: fixed;
+  top: 20px;
+  right: -300px;
+  background: white;
+  padding: 15px 25px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: right 0.5s ease-in-out;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+}
+
+.notification.show {
+  right: 20px;
+}
+
+.notification-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.timer-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  background: #28a745;
+  transition: width 1s linear;
+}
+
+.close-btn {
+  border: none;
+  background: none;
+  margin-left: 15px;
+  color: #666;
+  cursor: pointer;
+  padding: 0 5px;
+}
+
+.close-btn:hover {
+  color: #333;
+}
+/*  css for service check box */
+.service-item1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+.service-item1 .checkbox-container {
+  margin-left: auto;
+}
+.service-item1 .form-check-input {
+  transform: scale(1.5);
+}
+
+.service-item2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.service-item2 .form-check-input {
+  transform: scale(2.5);
+}
+
+/* In Progress and completed */
+.Completed {
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+  /* border: 1px solid darkgreen; */
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.Inprogress {
+  background-color: yellow;
+  color: black;
+  padding: 5px 10px;
+  /* border: 1px solid orange; */
+  border-radius: 20px;
+  display: inline-block;
+}
+/* modal */
+
+/* Table styling */
+.orders-table {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.orders-table th {
+  background: #081949;
+  color: white;
+  font-weight: 600;
+}
+
+.customer-info,
+.vehicle-info {
+  line-height: 1.4;
+}
+
+/* Modal styling */
+.modal-header-custom {
+  background: #081949;
+  color: white;
+  border-bottom: none;
+}
+
+.modal-header-custom .btn-close {
+  filter: invert(1);
+}
+
+.modal-body-custom {
+  background: #f8f9fa;
+  padding: 2rem;
+}
+
+.section-title {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.additional-notes {
+  background: white;
+  padding: 1rem;
+  border-radius: 6px;
+  border-left: 4px solid #3498db;
+}
+
+.modal-footer-custom {
+  border-top: none;
+  background: #f8f9fa;
+}
+
+/* Badges */
+.badge {
+  padding: 0.5em 0.75em;
+  font-size: 0.85em;
+  border-radius: 4px;
+}
+
+/* css for check box and drop down */
+/* Custom Dropdown Styling */
+.custom-dropdown {
+  display: inline-block;
+  width: auto;
+  max-width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #08194a;
+  border-radius: 0.25rem;
+  transition:
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+  cursor: pointer; /* Pointer cursor on hover */
+}
+.additionalRequestStatuss {
+  cursor: pointer;
+}
+
+.custom-dropdown:focus {
+  color: #495057;
+  background-color: #fff;
+  /* border-color: #D60C08; Maintain primary color */
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #08194a; /* Soft highlight with primary color */
+}
+
+/* Custom Checkbox Styling */
+.custom-checkbox {
+  width: 1.2rem;
+  height: 1.2rem;
+  cursor: pointer; /* Pointer cursor */
+  /* color: red; */
+  /* border: 1px solid #D60C08; Primary color border */
+  border-radius: 0.25rem;
+  /* Use accent-color for modern browsers */
+  /* accent-color: #D60C08; */
+}
+
+/* Responsive adjustments for small screens */
+@media (max-width: 576px) {
+  .custom-dropdown {
+    font-size: 0.875rem;
+    padding: 0.25rem 0.5rem;
+  }
+
+  .custom-checkbox {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+/* pagination css */
+
+.pagination-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.pagination-wrap {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  gap: 5px;
+}
+
+.pagination-wrap .page-item {
+  margin: 0 5px;
+}
+
+/* For screens smaller than 576px, stack pagination vertically */
+@media (max-width: 576px) {
+  .pagination-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* loader css*/
+
+.loader {
+  display: flex;
+  justify-content: space-between; /* This ensures the divs (button and other div) are spaced evenly */
+  align-items: center; /* Align items vertically in the center */
+  gap: 10px; /* Optional: Adds some space between the elements */
+}
+
+.loader > div,
+.loader > button {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Vertically centers content */
+}
+/* modal */
+/* Style for input and textarea fields */
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+/* Focus state */
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #081847;
+  box-shadow: 0 0 5px rgba(8, 24, 71, 0.3);
+  outline: none;
+}
+
+/* checkbox */
+
+/* Custom Checkbox Styling */
+.custom-checkbox {
+  margin-bottom: 20px; /* Adds space below the checkbox so the button doesn't cover it */
+}
+
+.custom-checkbox input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+  transition:
+    background-color 0.3s,
+    border-color 0.3s;
+  vertical-align: middle;
+}
+
+.custom-checkbox input[type="checkbox"]:checked {
+  background-color: #081847;
+  border-color: #081847;
+}
+
+.custom-checkbox input[type="checkbox"]:checked::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.custom-checkbox label {
+  margin-left: 8px;
+  font-size: 16px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+/* Optional: Add some margin on the button container if needed */
+.form-group.loader {
+  margin-top: 20px;
+}
+
+/* navigation */
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap; /* Ensures links wrap on smaller screens */
+  justify-content: center;
+  gap: 15px;
+}
+
+.nav-item {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Mobile nav dropdown: override the desktop flex-wrap layout from
+   style.css so the collapsed menu stacks cleanly instead of wrapping
+   into a scattered flex layout. */
+@media (max-width: 991.98px) {
+  #navbarNav {
+    width: 100%;
+  }
+  #navbarNav .navigation {
+    display: block;
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  #navbarNav .navigation > li {
+    padding: 12px 0;
+    margin-right: 0;
+    border-bottom: 1px solid #eee;
+  }
+  #navbarNav .navigation > li:last-child {
+    border-bottom: none;
+  }
+}
